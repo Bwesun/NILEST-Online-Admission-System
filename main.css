@@ -1,0 +1,68 @@
+
+#sidenav{
+    position: absolute;
+    width: 250px;
+    height: 310px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid #ccc;
+    background: #ccc;
+    overflow: hidden;
+}
+
+#sidenav h2{
+    padding: 5px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: #808080;
+    color:white;
+}
+
+#sidenav ul{
+    padding: 5px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#sidenav ul li{
+    list-style: none;
+    border-bottom: 1px dotted grey;
+    padding-top:  15px;
+}
+
+#sidenav ul li a{
+    text-decoration: none;
+    color: #996699;
+}
+
+#sidenav a:hover{
+    color: green;
+}
+
+
+#sidenav ul li a:visited{
+    color: red;
+}
+
+/*Setting the slide*/
+#slideshow{
+    position:absolute;
+    width: 670px;
+    height: 300px;
+    margin-left: 270px;
+    margin-top: 10px;
+    border:5px solid black;
+    overflow: hidden;
+}
+
+#slideshow img{
+    display: none;
+}
+
+#slideshow .is-showing{
+    display: inline;
+}
+
+#slideshow .showing{
+    display: inline;
+}
+/*Setting the page content*/
